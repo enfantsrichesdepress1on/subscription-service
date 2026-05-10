@@ -139,17 +139,3 @@ goose -dir migrations postgres "postgres://postgres:postgres@localhost:5432/subs
 CONFIG_PATH=config.yaml
 ```
 
-## Структура проекта
-
-```text
-cmd/api                 точка входа
-internal/config         загрузка .env/.yaml
-internal/db             подключение к PostgreSQL
-internal/handler        HTTP handlers
-internal/logger         zap logger
-internal/model          DTO и модели
-internal/repository     SQL-слой
-internal/service        бизнес-логика
-migrations              SQL-миграции
-docs/openapi.yaml       Swagger/OpenAPI спецификация
-```
