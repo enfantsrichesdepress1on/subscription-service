@@ -1,18 +1,3 @@
-# Subscription Aggregation Service
-
-REST-сервис на Go для учета онлайн-подписок пользователей и подсчета суммарной стоимости подписок за выбранный период.
-
-## Стек
-
-- Go 1.23
-- PostgreSQL 16
-- chi router
-- pgx
-- goose migrations
-- zap logger
-- Docker Compose
-- OpenAPI 3.0
-
 ## Запуск
 
 ```bash
